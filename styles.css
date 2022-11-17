@@ -1,0 +1,357 @@
+body{
+    background-image: linear-gradient(to right ,rgba(0,0,0,0.7),rgba(0,0,0,0.3)) ,url('images/DSC_5435.JPG');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+hr{
+  color: aliceblue;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .mylogo{
+    height: 17vh ;
+    /* width: 12vw; */
+  }
+
+  .logo{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .mynav{
+    background-color: rgba(32, 31, 29, 0.4);
+    overflow: auto;
+  }
+
+  .nav-text .nav-link{
+    color: rgb(226, 231, 236);
+    font-size: 23px;
+    font-family: 'Staatliches';
+  }
+
+.left-home{
+    position: absolute;
+    left: 6%;
+}
+.home-text:hover{
+    border-bottom: 3px solid rgb(238, 44, 10);
+    color:rgb(238, 44, 10) !important ;
+}
+.left-high{
+    position: absolute;
+    left: 19%;
+    color: aliceblue;
+}
+
+.high-text:hover{
+    border-bottom: 3px solid rgb(252, 248, 3);
+    color:rgb(252, 248, 3) !important ;
+}
+
+.about-text:hover{
+    border-bottom: 3px solid rgb(3, 44, 252);
+    color:rgb(3, 44, 252) !important ;
+}
+
+.contact-text:hover{
+    border-bottom: 3px solid rgb(3, 252, 3);
+    color:rgb(3, 252, 3) !important ;
+}
+
+
+.right-about{
+    position: absolute;
+    right: 21%;
+}
+.right-contact{
+    position: absolute;
+    right: 6%;
+} 
+ 
+  /* carousal images  */
+  .car-1{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url("images/pause\ front\ image.jpg");
+  }
+
+  .car-2{
+    background-image: linear-gradient(to bottom right,rgba(0,0,0,0.6),rgba(0,0,0,0.3)) ,url("images/TRT-7.JPG");
+  }
+
+  .car-3{
+    background-image: linear-gradient(to top right,rgba(0,0,0,0.6),rgba(0,0,0,0.3)) ,url("images/TRT-13.JPG");
+  }
+
+  #cont{
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    /* width: 70%;
+    height: 25%
+    margin-top: 8%; */
+    
+    background-color: rgba(250, 249, 249, 0.166);
+    align-items: center;
+    /* overflow: scroll; */
+}
+
+  .ktd{
+    text-align: center;
+    font-family: 'Forresta Personal Use', sans-serif;
+    padding: 40px;
+    padding-top: 0px;
+    color:rgb(232, 232, 232);
+    font-size: 10vh;
+    text-shadow: 30px;
+    
+  }
+
+  .ktb_hd{
+    text-align: center;
+    font-family: 'Forresta Personal Use', sans-serif;
+    padding: 40px;
+    padding-top: 0px;
+    color:rgb(232, 232, 232);
+    font-size: 10vh;
+    text-shadow: 30px;
+
+  }
+
+  .para{
+    margin: 0px;
+    color: rgb(238, 248, 244);
+    width: 65%;
+    position: relative;
+    overflow: auto;
+    align-items: center;
+    font-family: "Lucida Typewriter"; 
+    font-size: 16px; 
+    font-style: normal;
+     font-variant: normal;
+      font-weight: 400; 
+      line-height: 20px; 
+      padding-left:20%;
+  }
+
+.hello{
+  background-color: rgba(250, 249, 249, 0.166);
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding:10px;
+
+}
+
+.highs{
+  width: 99%;
+  height: 80%;
+}
+
+.mylogo1{
+  right:10%;
+  height: 30vh;
+  align-items: center;
+  position: relative;
+  overflow: auto;
+  padding-left: 25%;
+  
+}
+
+/* footer css */
+
+.site-footer
+{
+  background-color: rgba(250, 249, 249, 0.105);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.ftimg{
+  height: 10vh;
+
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color: rgba(250, 249, 249, 0.166);
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/* contact us  */
+
+.contact{
+    width: 70%;
+    height: 80%;
+    margin-top: 8.5%;
+    padding-top: 0%;
+    /* margin-bottom: 8%; */
+    background-color: rgba(250, 249, 249, 0.166);
+    align-items: center; 
+}
+
+.ctct{
+  height: 15vh;
+  /* padding-top: 20px; */
+}
